@@ -1,18 +1,24 @@
-import Link from "next/link"
 import styled from "styled-components"
 import Header from "./Header"
+import { createGlobalStyle } from "styled-components"
 
-const StyledHeader = styled(Header)`
-border: 10px black;
-background-color: red;
+const GlobalStye = createGlobalStyle`
+body {
+    margin: 0;
+    
+}
+`
+
+const BodyDiv = styled.div`
+
 `
 
 export default ({ title, children }) =>
-    <div>
+    <BodyDiv >
         <h1>{title}</h1>
         <Header />
         <div style={{ padding: "20px", margin: "20px", backgroundColor: "red" }}>{children}</div>
 
 
-    </div>
+    </BodyDiv>
 
