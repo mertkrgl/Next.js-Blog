@@ -25,7 +25,7 @@ const Content = styled.div`
 `;
 
 const ContentInner = styled.div`
-  padding: 20px;
+  padding: 30px;
 `;
 
 const H1 = styled.h1`
