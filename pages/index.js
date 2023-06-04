@@ -15,6 +15,8 @@ export default () => {
     and the like).
 
     Deneme yazısı
+
+
     </Layout>
   )
 }
