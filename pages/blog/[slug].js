@@ -11,9 +11,6 @@ export default ({ frontmatter, content }) => {
       <h2>
         {author} || {date}
       </h2>
-      <h3>
-        {category} || {tags.join()}
-      </h3>
       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </Layout>
   );
