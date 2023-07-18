@@ -1,5 +1,5 @@
 ---
-title: "Linux "
+title: "What are Vite and create react app and what are the differences?"
 author: "Mehmet Mert KIRGIL"
 category: "example"
 date: "17.07.2023"

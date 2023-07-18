@@ -22,7 +22,7 @@ const BlogWrapper = styled.div`
 
 export default ({ posts }) => (
   <Layout title="Blog">
-    Burada yazılar yer alacak
+  
     <BlogWrapper>
       {posts.map((post) => {
         //extract slug and frontmatter

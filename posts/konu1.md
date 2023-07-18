@@ -1,8 +1,8 @@
 ---
-title: "This is an example post"
+title: "React testing library"
 author: "Mehmet Mert KIRGIL"
 category: "example"
-date: "2023-04-23"
+date: "17.07.2023"
 bannerImage: "url-to-image.png"
 tags:
   - example
